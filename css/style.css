@@ -928,9 +928,6 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   }
 
   .nav-open-btn {
-    width: 6vh;
-    height: 6vh;
-    font-size: 25px;
     background: black;
   }
 
@@ -938,6 +935,10 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
     background-color: none;
     border: 1px solid black;
     color: #000;
+  }
+
+  .card-cat a{
+    font-weight: bold;
   }
 }
 
