@@ -342,9 +342,21 @@ body {
 
 .btn-link:is(:hover, :focus) { border-color: transparent; }
 
+.card-title {
+  color:black;
+}
 
+.card-price {
+  color: #000;
+}
 
+.product-item {
+  background: rgba(197, 197, 194, 0.231);
+}
 
+.card-banner {
+  background: rgba(197, 194, 194, 0.231);
+}
 
 /*-----------------------------------*\
  * #HEADER
